@@ -1,0 +1,22 @@
+Instructons for the Assignment.
+
+1. The data used in the Assignment is to be stored in the same directory as the .py file.
+2. all the files used in the Assignment are stored in the same directory for ease of access.
+3. All the files used in the Assignment can be dowloaded from the following the link.
+   https://drive.google.com/drive/folders/1ltdsXAS_zaZ3hI-q9eze_QCzHciyYAJY?usp=sharing.
+4. The Objective of the Assignment is to extract textual data articles from the given URL and perform text analysis and sentiment analysis on the extracted text.
+5. The First step is to store the input file in to a dataframe, in which all the URLs from which the data is to extracted is stored.
+6. The second step is extract the text from the URLs using the goose3 library.
+7. The third step is to perform sentiment Analysis in which the extracted text is cleaned using the stopwords provided in the stopwords folder and 
+   The Positive Score, Negative Score, Polarity Score and Subjectivity score are calculated.
+8. The fourth step is to perform Analysis of Readability as explained in the "Text Analysis.docx".
+9. Continue to perform other analysis as provided in the above document.
+10. The libraries used in the Assignment are
+    a. goose3
+    b. spacy
+    c. nltk, nltk.tokenize, RegexpTokeizer( for extracting only the alphanumeric text, so we donot to separately remove puctuation etc)
+    d. textstat, textstatistics for getting syllable count
+    e. MinMaxScaler with custom feature_range, to scale the values in polarity_score and subjectivity_score in the prescribed range as given in the "Text Analysis.docx".
+11. Finally we store the data we extracted in a csv or excel file in the format as provided in the "Output Data Structure.xlsx" file.
+
+ 								 "" Thank you""
